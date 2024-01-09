@@ -26,7 +26,7 @@ header {
     font-family: Lato;
     font-size: 60px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 800px;
     line-height: normal;
 }
 
@@ -81,7 +81,7 @@ button:hover {
 }
 
 #featured {
-    padding: 100px 0;
+    padding: 100px 0px;
 }
 
 .section-content {
@@ -94,4 +94,36 @@ button:hover {
 .flower-img {
     background-color: #E55473;
     border-radius: 300px 300px 0px 0px;
+    padding: 30px 25px 0px;
+    display: flex;
+    height: 500px;
+    align-items: end;
+}
+
+.section-content .flower .flower-img img {
+    width: 100%;
+}
+
+.pink {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.blue {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.green {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.flower p {
+    color: #272727;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    /* 145.833% */
+    text-decoration-line: underline;
 }
