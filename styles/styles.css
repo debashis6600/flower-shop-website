@@ -6,7 +6,8 @@
     font-family: 'Lato', sans-serif;
 }
 
-header {
+header,
+#hot-deal {
     background-color: rgba(229, 84, 115, 0.10);
 }
 
@@ -126,4 +127,94 @@ button:hover {
     line-height: 35px;
     /* 145.833% */
     text-decoration-line: underline;
+}
+
+#main {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 75%;
+    max-width: 1400px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+
+.bannar-layout .bannar-image img {
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
+    align-content: center;
+}
+
+.bannar-layout p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    margin-top: 16px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    /* 145.833% */
+}
+
+.hot-deal-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0px;
+    margin-top: 100px;
+}
+
+#hot-deal .hot-deal-text {
+    width: 75%;
+    max-width: 550px;
+    text-align: center;
+}
+#hot-deal .hot-deal-text *{
+    margin-bottom: 24px;
+}
+
+#hot-deal .hot-deal-text h2 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+#hot-deal .hot-deal-text h2 .important{
+    color: #E55473;
+}
+#hot-deal .hot-deal-img{
+    max-width: 318px;
+}
+
+.newsletter{
+    margin: 128px 0px;
+}
+
+.newsletter-main{
+    background-image: url('../images/Rectangle\ 9.png');
+    padding: 122px 0px;
+}
+
+#newsletter form{
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+
+#newsletter form input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+    /* outline: 10px green; */
 }
